@@ -1,0 +1,22 @@
+    2  ls -la
+    3  git init .
+    4  ls -la
+    5  git status 
+    6  git add index.html 
+   14  git config --global user.name "masterclass"
+   15  git config --global user.email "masterclass@localhost.local"
+   16  git config --list
+   17  git commit -m "this is version 1"
+   18  git status 
+   19  mv -v index.html new.html
+   20  git status 
+   21  git add .
+   22  git status 
+   23  git commit -m "version 1 file name change"
+   24  git status 
+   25  git remote -v
+   26  git remote add origin https://github.com/infobyte-kyn/Mytest.git
+   27  git remote -v
+   30  git remote set-url origin https://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@github.com/infobyte-kyn/Mytest.git
+   31  git remote -v
+   32   git push  origin master
